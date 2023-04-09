@@ -33,7 +33,9 @@ body {
 
 
 
-h1 {
+
+
+section div h1 {
 
     width: 100%;
     text-align: center;
@@ -44,6 +46,13 @@ h1 {
     transition: all 0.5s ease;
     
 }
+
+.heading {
+    color: red;
+
+}
+
+
 
 .input {
     width: 100%;
@@ -301,6 +310,8 @@ h1 {
     .container {
         width: 90%;
     }    
+
+    
 
     .input {
         flex-direction: column;
